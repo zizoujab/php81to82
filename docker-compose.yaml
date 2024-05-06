@@ -1,0 +1,11 @@
+services:
+  php81:
+    image: php:8.1-cli
+    tty: true
+    volumes:
+      - .:/PHP8.1
+  php82:
+    image: php:8.2-cli
+    tty: true
+    volumes:
+      - .:/PHP8.2
